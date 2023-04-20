@@ -1,3 +1,6 @@
-{"username":"omariosouto","name":"Mario Souto","email":"contato@alura.com.br","password":"safepassword","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2NDU5MDcxMTAsImV4cCI6MTY0NjUxMTkxMCwic3ViIjoiU05ZOGUyVDgwaUFpNjg3cyJ9.LbaOWoh330sizYU-_xIJPmhwsoVYXC9qIrbTLtpBnZU","_id":"SNY8e2T80iAi687s"}
+{"username":"hudson21","password":"safepassword","name":"Hudson","email":"paulo@alura.com.br","_id":"2w24bP6fyIdYE0tl"}
+{"username":"omariosouto","name":"Mario Souto","email":"contato@alura.com.br","password":"safepassword","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODIwMDgxNzgsImV4cCI6MTY4MjYxMjk3OCwic3ViIjoiU05ZOGUyVDgwaUFpNjg3cyJ9.konL71AXyIh3x00vh9wvNjCTMZoxEW-Mf_OOO54uNxk","_id":"SNY8e2T80iAi687s"}
+{"username":"Hudson21","password":"safepassword","name":"Hudson","email":"hudson@alura.com.br","_id":"d44z5mYpDCqGfpTC","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODIwMTAzNDcsImV4cCI6MTY4MjYxNTE0Nywic3ViIjoiZDQ0ejVtWXBEQ3FHZnBUQyJ9.ZfICLRrVIkPRRcZGljV2Rwz_SWgDDYPYpYm0ChesCyo"}
 {"username":"peas","password":"safepassword","name":"Paulo Silveira","email":"paulo@alura.com.br","_id":"pchQDUBs1jJv8br0"}
 {"$$indexCreated":{"fieldName":"username","unique":true,"sparse":false}}
+{"username":"Hudson21","password":"safepassword","name":"Hudson","email":"hudson@alura.com.br","_id":"d44z5mYpDCqGfpTC","refresh_token":"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpYXQiOjE2ODIwMTEwNjYsImV4cCI6MTY4MjYxNTg2Niwic3ViIjoiZDQ0ejVtWXBEQ3FHZnBUQyJ9.xcKpLM6L0fR_qrY1VMHrlBs46b9lMAiv9nxr74xnSI4"}
