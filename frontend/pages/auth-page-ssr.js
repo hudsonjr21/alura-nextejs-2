@@ -1,5 +1,4 @@
-import { tokenService } from "../src/services/auth/tokenService";
-import nookies from 'nookies'
+import { withSession } from "../src/services/auth/session";
 
 function AuthPageSSR(props) {
   return (
@@ -13,17 +12,34 @@ function AuthPageSSR(props) {
     </div>
   )
 }
+
 export default AuthPageSSR;
 
-export async function getServerSideProps(ctx) { 
-
-  const cookies = nookies.get(ctx)
-  console.log('cookies', cookies);
-
+// Decorator Pattern
+export const getServerSideProps = withSession((ctx) => {
   return {
-      props: {
-        token: tokenService.get(ctx),
-      },
+    props: {
+      session: ctx.req.session,
     }
   }
+})
+
+// export async function getServerSideProps(ctx) { 
+//   try {
+//     const session = await authService.getSession(ctx);
+//     return {
+//         props: {
+//           session,
+//         },
+//     }
+//   } catch(err) {
+//     return {
+//       redirect: {
+//         permanent: false,
+//         destination: '/?error=401',
+//       }
+//     }
+//   }
+// }
+
 
